@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mi primer proyecto web: un espacio para aprender, crear y compartir ideas.">
+  <title>Mi espacio · Primer proyecto web</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navigation wrap">
+    <a class="brand" href="#inicio" aria-label="Mi espacio, inicio"><span class="brand-icon">m.</span> mi espacio</a>
+    <nav aria-label="Navegación principal"><a href="#proyecto">El proyecto</a><a href="#ideas">Ideas</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> UN NUEVO COMIENZO</p>
+        <h1>Las grandes ideas<br>empiezan con un<br><em>primer paso.</em></h1>
+        <p class="intro">Este es mi pequeño rincón en internet. Un espacio para experimentar, aprender y convertir ideas en algo real.</p>
+        <a class="button" href="#proyecto">Explora el proyecto <span aria-hidden="true">↗</span></a>
+        <p class="hero-note">Hecho con curiosidad. Construido desde cero.</p>
+      </div>
+      <div class="art" role="img" aria-label="Composición geométrica de un sol amarillo, un arco verde y una esfera coral">
+        <span class="art-label">IDEAS EN MOVIMIENTO / 001</span>
+        <div class="sun"></div><div class="arch"></div><div class="ball"></div><div class="line"></div>
+        <span class="art-caption">Todo empieza por imaginar.</span>
+      </div>
+    </section>
+    <section class="project wrap" id="proyecto">
+      <div class="section-heading"><p class="eyebrow">PEQUEÑOS PASOS, MUCHAS POSIBILIDADES</p><h2>Un lugar para crear.</h2></div>
+      <div class="cards">
+        <article><span class="number">01 /</span><h3>Aprender haciendo</h3><p>Cada línea de código es una oportunidad para descubrir algo nuevo. Aquí empieza el camino.</p></article>
+        <article><span class="number">02 /</span><h3>Dar forma a las ideas</h3><p>De un boceto en papel a una página en la pantalla. Lo importante es empezar a construir.</p></article>
+        <article><span class="number">03 /</span><h3>Seguir explorando</h3><p>Probar, mejorar y volver a intentar. Este proyecto irá creciendo con cada descubrimiento.</p></article>
+      </div>
+    </section>
+    <section class="ideas wrap" id="ideas">
+      <div><p class="eyebrow">UN POCO DE INSPIRACIÓN</p><h2>¿Por dónde empezar hoy?</h2><p id="idea" aria-live="polite">Crea algo pequeño que te haga sonreír.</p></div>
+      <button class="button secondary" id="idea-button" type="button">Dame una idea <span aria-hidden="true">↗</span></button>
+    </section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#inicio">mi espacio<span class="green">.</span></a><p>Un primer proyecto. Infinitas posibilidades.</p><span>© <span id="year">2026</span></span></footer>
+</body>
+</html>
